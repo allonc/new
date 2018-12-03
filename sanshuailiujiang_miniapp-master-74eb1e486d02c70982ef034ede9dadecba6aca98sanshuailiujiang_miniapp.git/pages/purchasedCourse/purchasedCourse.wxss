@@ -1,0 +1,90 @@
+/* pages/purchasedCourse/purchasedCourse.wxss */
+.list-wrap {
+  width: 100%;
+}
+.list-wrap .list-item {
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #d8d8d8;
+  background-color: #ffffff;
+}
+.list-item-left {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-item-left .cover {
+  width: 180rpx;
+  height: 180rpx;
+  background-color: #d8d8d8;
+  border-radius: 10rpx;
+}
+.list-item-left .total-time {
+  position: absolute;
+  width: 115rpx;
+  height: 32rpx;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 22rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 0rpx 10rpx 0rpx 10rpx;
+}
+.list-item-left .total-time image {
+  width: 18rpx;
+  height: 18rpx;
+  margin-left: 15rpx;
+  margin-right: 10rpx;
+}
+.list-item-right .item-content {
+  height: 180rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 26rpx;
+  font-family: PingFang-SC;
+  padding: 0 45rpx 0 20rpx;
+  box-sizing: border-box;
+}
+.list-item-right .item-content .title {
+  padding-bottom: 10rpx;
+  width: 400rpx;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+.list-item-right .item-content .info {
+  width: 400rpx;
+  font-size: 26rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: #8a8a8a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-item-right .item-content .item-footer {
+  line-height: 32rpx;
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  color: #3d3d3d;
+  color: #adadad;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-item-right .item-content .item-footer image {
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 20rpx;
+}

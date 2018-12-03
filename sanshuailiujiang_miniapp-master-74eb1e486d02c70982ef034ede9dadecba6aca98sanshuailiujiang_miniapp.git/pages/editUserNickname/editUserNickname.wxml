@@ -1,0 +1,9 @@
+<!-- pages/editUserNickname/editUserNickname.wxml -->
+<view class="editUserNickname">
+    <view class="input-wrap">
+        <input placeholder="请输入用户名" auto-focus bindconfirm="bindInputConfirm" />
+    </view>
+    <view class="btn-save">
+        <button>保存</button>
+    </view>
+</view>

@@ -1,0 +1,105 @@
+<!-- pages/learning/learning.wxml -->
+<view class="learning">
+    <view class="header">
+        <image class="header-bg" src="{{imgUrl}}study_background@2x.png"></image>
+        <view class="header-text">
+            <view class="title">学习时长（分钟）</view>
+            <view class="count">999</view>
+        </view>
+        <view class="header-tab justify-content-between">
+            <view class="header-tab-left justify-content-center" bindtap="goCollection">
+                <image src="{{imgUrl}}icon_collection@2x.png"></image>
+                <text>收藏99</text>
+            </view>
+            <view class="header-tab-right justify-content-center" bindtap="goPurchasedCourse">
+                <image src="{{imgUrl}}my_icon_records@2x.png"></image>
+                <text>已购99</text>
+            </view>
+        </view>
+    </view>
+    <view class="main">
+        <view class="mian-header justify-content-between">
+            <text class="mian-header-title">历史记录</text>
+            <text class="mian-header-clearbtn" bindtap="bindHandleClear">一键清空</text>
+        </view>
+        <view class="list-wrap">
+            <view class="list-item justify-content-between">
+                <view class="list-item-left">
+                    <image class="cover" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+                    <view class="total-time">
+                        <image src="{{imgUrl}}icon_study_time@2x.png"></image>
+                        <text>23:00</text>
+                    </view>
+                </view>
+                <view class="list-item-right justify-content-between">
+                    <view class="item-content">
+                        <view>
+                            <view class="title">无问东西</view>
+                            <view class="info">颇具年代感的打扮和服饰设计无问西东颇具年代感的打扮和服饰设计无问西东</view>
+                        </view>
+                        <view class="item-footer">
+                            <image src="{{imgUrl}}icon_study_listen@2x.png"></image>
+                            <text>已听54%</text>
+                        </view>
+                    </view>
+                    <view class="item-icon-wrap">
+                        <image src="{{imgUrl}}icon_study_delete@2x.png" style="width:40rpx;height:40rpx;"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="list-item justify-content-between">
+                <view class="list-item-left">
+                    <image class="cover" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+                    <view class="total-time">
+                        <image src="{{imgUrl}}icon_study_time@2x.png"></image>
+                        <text>23:00</text>
+                    </view>
+                </view>
+                <view class="list-item-right justify-content-between">
+                    <view class="item-content">
+                        <view>
+                            <view class="title">无问东西</view>
+                            <view class="info">颇具年代感的打扮和服饰设计无问西东颇具年代感的打扮和服饰设计无问西东</view>
+                        </view>
+                        <view class="item-footer">
+                            <image src="{{imgUrl}}icon_study_listen@2x.png"></image>
+                            <text>已听54%</text>
+                        </view>
+                    </view>
+                    <view class="item-icon-wrap">
+                        <image src="{{imgUrl}}icon_study_delete@2x.png" style="width:40rpx;height:40rpx;"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="list-item justify-content-between">
+                <view class="list-item-left">
+                    <image class="cover" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+                    <view class="total-time">
+                        <image src="{{imgUrl}}icon_study_time@2x.png"></image>
+                        <text>23:00</text>
+                    </view>
+                </view>
+                <view class="list-item-right justify-content-between">
+                    <view class="item-content">
+                        <view>
+                            <view class="title">无问东西</view>
+                            <view class="info">颇具年代感的打扮和服饰设计无问西东颇具年代感的打扮和服饰设计无问西东</view>
+                        </view>
+                        <view class="item-footer">
+                            <image src="{{imgUrl}}icon_study_listen@2x.png"></image>
+                            <text>已听54%</text>
+                        </view>
+                    </view>
+                    <view class="item-icon-wrap">
+                        <image src="{{imgUrl}}icon_study_delete@2x.png" style="width:40rpx;height:40rpx;"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="no-more">
+                <view class="line"></view>
+                <text>已经到底了</text>
+                <view class="line"></view>
+            </view>
+        </view>
+    </view>
+</view>

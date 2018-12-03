@@ -1,0 +1,50 @@
+{
+	"pages": [
+    "pages/course/course",
+		"pages/learning/learning",
+		"pages/purchasedCourse/purchasedCourse",
+		"pages/collection/collection",
+		"pages/user/user",
+		"pages/shareInvitation/shareInvitation",
+		"pages/help/help",
+		"pages/feedBack/feedBack",
+		"pages/purchaseRecord/purchaseRecord",
+		"pages/userInfo/userInfo",
+		"pages/bindMobile/bindMobile",
+		"pages/editUserNickname/editUserNickname",
+		"pages/study/study",
+		"pages/logs/logs",
+		"pages/index/index",
+		"pages/personalCenter/personalCenter"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#39D1C8",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "#fff"
+	},
+	"tabBar": {
+		"color": "#8E8E93",
+		"selectedColor": "#39D1C8",
+		"list": [
+			{
+				"pagePath": "pages/course/course",
+				"iconPath": "images/tab/tab_class_nor@2x.png",
+				"selectedIconPath": "images/tab/tab_class_click@2x.png",
+				"text": "课程"
+			},
+			{
+				"pagePath": "pages/learning/learning",
+				"iconPath": "images/tab/tab_study_nor@2x.png",
+				"selectedIconPath": "images/tab/tab_study_click@2x.png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "images/tab/tab_my_nor@2x.png",
+				"selectedIconPath": "images/tab/tab_my_click@2x.png",
+				"text": "我的"
+			}
+		]
+	}
+}

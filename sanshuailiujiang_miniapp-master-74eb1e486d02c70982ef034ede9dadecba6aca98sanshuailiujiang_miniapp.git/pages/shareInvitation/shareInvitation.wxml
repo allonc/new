@@ -1,0 +1,8 @@
+<!--pages/shareInvitation/shareInvitation.wxml-->
+<view class="shareInvitation">
+    <view class="content-wrap">
+        <view class="img-wrap"> </view>
+    </view>
+    <view class="tips">保存邀请函，转发好友</view>
+    <view class="bottom-btn">保存图片</view>
+</view>

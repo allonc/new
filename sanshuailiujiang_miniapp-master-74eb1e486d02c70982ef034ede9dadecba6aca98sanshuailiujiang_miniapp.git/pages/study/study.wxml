@@ -1,0 +1,49 @@
+<!--pages/study/study.wxml(学习)-->
+<view class="studyBox">
+<!-- 学习头部开始 -->
+  <view class="studyHeader">
+    <view class="duration">学习时长 (分钟)</view>
+    <view class="time">999</view>
+    <view class="operation">
+      <view class="collection">
+        <image src="../../images/icon/icon_collection@2x.png"></image>
+        <text>收藏99</text>
+      </view>
+      <view class="purchased">
+        <image src="../../images/icon/my_icon_records@2x.png"></image>
+        <text>已购99</text>
+      </view>
+    </view>
+  </view>
+<!-- 学习头部结束 -->
+<!-- 列表开始 -->
+<view class="studyList">
+  <view class="listTitle">
+    <text>历史记录10</text>
+    <text>一键清空</text>
+  </view>
+  <block  wx:for="{{list}}" wx:item="{{item}}" wx:key="{{inex}}">
+   <view class="listItem">
+       <view class="itemleft">
+       <image src="{{item.img}}"></image>
+       <view class="leftBg">
+       <image src="../../images/icon/icon_study_time@2x.png"></image>
+       <text>18:00</text>
+       </view>
+       </view>
+       <view class="itemCenter">
+        <view class="title">{{item.title}}</view>
+        <view class="subtitle">{{item.sub}}</view>
+        <view class="listen">
+          <image src="../../images/icon/icon_study_listen@2x.png"></image>
+         已听17%
+        </view>
+       </view>
+       <view class="itemRight">
+       <image src="../../images/icon/icon_study_delete@2x.png"></image>
+       </view>
+   </view>
+  </block>
+</view>
+<!-- 列表结束 -->
+</view>

@@ -1,0 +1,51 @@
+/* pages/feedBack/feedBack.wxss */
+.feedBack {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.text-wrap {
+  width: 100%;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background-color: #f4f8f9;
+  font-size: 28rpx;
+  font-family: PingFang-SC-Regular;
+  font-weight: 400;
+  color: #3d3d3d;
+  line-height: 40rpx;
+}
+.text-wrap textarea {
+  min-height: 346rpx;
+}
+.text-wrap .tips {
+  width: 100%;
+  text-align: right;
+  color: #adadad;
+}
+
+.btn-save {
+  width: 100%;
+  padding: 50rpx 10rpx;
+  box-sizing: border-box;
+}
+.btn-save button {
+  background-color: #39d1c8;
+  color: #ffffff;
+  border-radius: 10rpx;
+  border: none;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Medium;
+  font-weight: 500;
+  height: 98rpx;
+  line-height: 98rpx;
+}
+.button-hover {
+  opacity: 0.5;
+}
+.btn-save button.btn-disabled {
+  background: rgba(57, 209, 200, .5);
+}

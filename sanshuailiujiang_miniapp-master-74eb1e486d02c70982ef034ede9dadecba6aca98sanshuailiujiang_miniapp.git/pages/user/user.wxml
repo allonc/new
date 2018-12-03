@@ -1,0 +1,55 @@
+<!-- pages/user/user.wxml -->
+<view class="user">
+    <view class="header">
+        <view class="user-info justify-content-between" bindtap="goUserInfo">
+            <view class="left">
+                <image class="avatar" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" alt="用户头像"></image>
+            </view>
+            <view class="right justify-content-between">
+                <view class="name">会员0302</view>
+                <view class="level">
+                    蚂蚁微仓贵宾
+                    <image class="qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="main">
+        <navigator url="/pages/shareInvitation/shareInvitation">
+            <view class="qk-cell justify-content-between invite">
+                <image class="cell-icon" src="{{imgUrl}}my_icon_invitation@2x.png" />
+                <view class="cell-body justify-content-between">
+                    <view class="cell-title">邀请好友一起登船</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="/pages/purchaseRecord/purchaseRecord">
+            <view class="qk-cell justify-content-between record">
+                <image class="cell-icon" src="{{imgUrl}}my_icon_records@2x.png" />
+                <view class="cell-body justify-content-between">
+                    <view class="cell-title">已购记录</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="/pages/feedBack/feedBack">
+            <view class="qk-cell justify-content-between feedback">
+                <image class="cell-icon" src="{{imgUrl}}my_icon_email@2x.png" />
+                <view class="cell-body justify-content-between">
+                    <view class="cell-title">给船长的信</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="/pages/help/help">
+            <view class="qk-cell justify-content-between help">
+                <image class="cell-icon" src="{{imgUrl}}my_icon_manual@2x.png" />
+                <view class="cell-body justify-content-between">
+                    <view class="cell-title">船员手册</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

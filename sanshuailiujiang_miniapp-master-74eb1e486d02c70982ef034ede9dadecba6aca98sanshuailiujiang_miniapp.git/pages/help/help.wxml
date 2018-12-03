@@ -1,0 +1,42 @@
+<!-- pages/help/help.wxml -->
+<view class="help">
+    <view class="header">常见问题</view>
+    <view class="cells">
+        <navigator class="cell">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">账号问题</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">2018-09-19</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="cell">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">发票问题</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">2018-09-19</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="cell">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">页面问题</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">2018-09-19</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <navigator class="cell">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">提出建议</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">2018-09-19</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<!-- pages/feedBack/feedBack.wxml -->
+<view class="feedBack">
+    <view class="text-wrap">
+        <textarea bindinput="bindTextInput" maxlength="300" auto-height placeholder="您要跟船长说些什么…" />
+        <view class="tips">{{count}}/300</view>
+    </view>
+    <view class="btn-save">
+        <button class="{{count==0?'btn-disabled' : ''}}" hover-class="button-hover" >
+            提交
+        </button>
+    </view>
+</view>

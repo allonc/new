@@ -1,0 +1,108 @@
+<!-- pages/purchaseRecord/purchaseRecord.wxml -->
+<view class="purchaseRecord">
+    <view class="record-item">
+        <view class="item-content">
+            <view class="content-left">
+                <image class="content-left-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+            <view class="content-right">
+                <view class="right-header">
+                    <view class="title">成为自己：找回生命的意义</view>
+                    <view class="info">获取验证码点不了的情况在我的手机刚才也出现了，重新进</view>
+                </view>
+                <view class="right-footer">
+                    <image class="right-footer-icon" src="{{imgUrl}}icon_date@2x.png"></image>
+                    <text>2018-09-19</text>
+                </view>
+            </view>
+        </view>
+        <view class="item-footer">
+            <text class="footer-left">支付单号:9887667545345568</text>
+            <text class="footer-right">¥ 199.00</text>
+        </view>
+    </view>
+    <view class="record-item">
+        <view class="item-content">
+            <view class="content-left">
+                <image class="content-left-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+            <view class="content-right">
+                <view class="right-header">
+                    <view class="title">成为自己：找回生命的意义</view>
+                    <view class="info">获取验证码点不了的情况在我的手机刚才也出现了，重新进</view>
+                </view>
+                <view class="right-footer">
+                    <image class="right-footer-icon" src="{{imgUrl}}icon_date@2x.png"></image>
+                    <text>2018-09-19</text>
+                </view>
+            </view>
+        </view>
+        <view class="item-footer">
+            <text class="footer-left">支付单号:9887667545345568</text>
+            <text class="footer-right">¥ 199.00</text>
+        </view>
+    </view>
+    <view class="record-item">
+        <view class="item-content">
+            <view class="content-left">
+                <image class="content-left-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+            <view class="content-right">
+                <view class="right-header">
+                    <view class="title">成为自己：找回生命的意义</view>
+                    <view class="info">获取验证码点不了的情况在我的手机刚才也出现了，重新进</view>
+                </view>
+                <view class="right-footer">
+                    <image class="right-footer-icon" src="{{imgUrl}}icon_date@2x.png"></image>
+                    <text>2018-09-19</text>
+                </view>
+            </view>
+        </view>
+        <view class="item-footer">
+            <text class="footer-left">支付单号:9887667545345568</text>
+            <text class="footer-right">¥ 199.00</text>
+        </view>
+    </view>
+    <view class="record-item">
+        <view class="item-content">
+            <view class="content-left">
+                <image class="content-left-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+            <view class="content-right">
+                <view class="right-header">
+                    <view class="title">成为自己：找回生命的意义</view>
+                    <view class="info">获取验证码点不了的情况在我的手机刚才也出现了，重新进</view>
+                </view>
+                <view class="right-footer">
+                    <image class="right-footer-icon" src="{{imgUrl}}icon_date@2x.png"></image>
+                    <text>2018-09-19</text>
+                </view>
+            </view>
+        </view>
+        <view class="item-footer">
+            <text class="footer-left">支付单号:9887667545345568</text>
+            <text class="footer-right">¥ 199.00</text>
+        </view>
+    </view>
+    <view class="record-item">
+        <view class="item-content">
+            <view class="content-left">
+                <image class="content-left-img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+            </view>
+            <view class="content-right">
+                <view class="right-header">
+                    <view class="title">成为自己：找回生命的意义</view>
+                    <view class="info">获取验证码点不了的情况在我的手机刚才也出现了，重新进</view>
+                </view>
+                <view class="right-footer">
+                    <image class="right-footer-icon" src="{{imgUrl}}icon_date@2x.png"></image>
+                    <text>2018-09-19</text>
+                </view>
+            </view>
+        </view>
+        <view class="item-footer">
+            <text class="footer-left">支付单号:9887667545345568</text>
+            <text class="footer-right">¥ 199.00</text>
+        </view>
+    </view>
+</view>

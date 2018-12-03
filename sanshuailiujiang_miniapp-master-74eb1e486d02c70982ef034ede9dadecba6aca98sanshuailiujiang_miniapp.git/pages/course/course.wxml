@@ -1,0 +1,79 @@
+<!--pages/course/course.wxml(课程)-->
+<view class="courseBox">
+  <!-- 轮播开始 -->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}">
+    <block wx:for="{{imgUrls}}" wx:item="{{item}}" wx:key="{{inex}}">
+      <swiper-item style="width:100%">
+        <image src="{{item}}" class="slide-image" style="width:100%;" mode="widthFix" height="320rpx" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 轮播结束 -->
+  <!-- 内容区开始 -->
+  <view class="courseContent">
+    <!-- 贵宾区开始 -->
+    <view class="courseContentVip">
+      <view wx:if="{{hasVip}}">
+        <view class="title">
+          <text>蚂蚁微仓贵宾专区</text>
+          <text>全部 ></text>
+        </view>
+        <view class="vipContent">
+          <block wx:for="{{vip}}" wx:item="{{item}}" wx:key="{{inex}}">
+            <view class="vipContentItem">
+              <view class="bg"></view>
+              <image src="{{item}}" />
+              <view class="vipTitle">教你如果讲解产品教你如果讲解产品</view>
+              <view class="vipSubtitle">如果有副标题</view>
+            </view>
+          </block>
+        </view>
+      </view>
+      <!-- 贵宾区结束 -->
+      <!-- 雏鹰计划开始 -->
+      <view class="courseContentEagles">
+        <view class="title">
+          <text>雏鹰计划</text>
+          <text>全部 ></text>
+        </view>
+      </view>
+      <view class="EaglesContentItem">
+        <block wx:for="{{vip}}" wx:item="{{item}}" wx:key="{{inex}}">
+          <view class="publicContentItem">
+            <image src="{{item}}" />
+            <view class="itemFooter">
+              <view class="itemFooterTitle">罗辑思维是怎么“干”出来的罗辑思维是怎么“干”出来的</view>
+              <view class="itemFooterOperation">
+                <view class="operationSee">
+                  <view>
+                    <image src="../../images/icon_fabulous@2x.png"></image>
+                  </view>289
+                  <view>
+                  </view>
+                </view>
+                <view class="operationSee">
+                  <view>
+                    <image src="../../images/icon_eyes@2x.png"></image>
+                  </view>289
+                  <view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+      <!-- 雏鹰计划结束 -->
+    </view>
+  </view>
+  <!-- 内容区结束 -->
+  <view class="courseBottom">
+    <text>我们的征程是星辰大海，敬请期待新旅程</text>
+  </view>
+  <view class="playBox" wx:if="{{showBox}}">
+    <view class="playBoxImage">
+      <image></image>
+    </view>
+  </view>
+
+</view>

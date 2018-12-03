@@ -1,0 +1,55 @@
+<!-- pages/userInfo/userInfo.wxml -->
+<view class="user-info">
+    <view class="content-wrap">
+        <view class="cell">
+            <view class="avatar-bar justify-content-between">
+                <text class="left">头像</text>
+                <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" alt="用户头像"></image>
+            </view>
+        </view>
+        <navigator class="cell" url="/pages/editUserNickname/editUserNickname">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">姓名</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">一直都很迷你啊</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+        <view class="cell" bindtap="openPopup">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">性别</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">女</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </view>
+        <navigator class="cell" url="/pages/bindMobile/bindMobile">
+            <view class="cell-body justify-content-between">
+                <view class="cell-title">手机号</view>
+                <view class="cell-right justify-content-end">
+                    <view class="value">13160873546</view>
+                    <image class="cell-arrow qk-icon__more" src="{{imgUrl}}left_none_grey@2x.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <view class="qk-mask" wx:if="{{isShowPop}}">
+        <view class="bottom-popup">
+            <view class="icon-bar">
+                <view class="icon-item">
+                    <!-- <image src="{{imgUrl}}icon_man_nor@2x.png"></image> -->
+                    <image src="{{imgUrl}}icon_man_click@2x.png"></image>
+                    <view class="text">我是男生</view>
+                </view>
+                <view class="icon-item">
+                     <image src="{{imgUrl}}icon_woman_nor@2x.png"></image>
+                    <!-- <image src="{{imgUrl}}icon_woman_click@2x.png"></image> -->
+                    <view class="text">我是女生</view>
+                </view>
+            </view>
+            <view class="btn-cancel" hover-class="btn-cancel-active" bindtap="closePop">取消</view>
+        </view>
+    </view>
+</view>
